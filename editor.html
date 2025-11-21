@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArtLayer - Редактор</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Jura:wght@300..700&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <ul class="header_content">
+            <a href="index.html" class="logo_grid">
+                <div class="div_1"><p class="logo">Art</p></div>
+                <div class="div_2"><p class="logo">Layer</p></div>
+            </a>
+            <li class="about"><a href="./about.html">О компании</a></li>
+            <li class="uslugi"><a href="./services.html">Услуги</a></li>
+            <li class="portfolio"><a href="./portfolio.html">Портфолио</a></li>
+            <li class="shop"><a href="./editor.html">Редактор</a></li>
+            <li class="contacts"><a href="./contacts.html">Контакты</a></li>
+        </ul>
+        <div class="header_lines">
+            <div class="header_line_1"></div>
+            <div class="header_line_2"></div>
+        </div>
+    </header>
+    
+    <main>
+        <div class="editor_container">
+            <h1 class="editor_title">Создайте свой дизайн при помощи искусственного интеллекта</h1>
+            
+            <div class="editor_layout">
+                <!-- Left Sidebar -->
+                <div class="editor_sidebar">
+                    <!-- Tools Panel -->
+                    <div class="tools_panel">
+                        <h3 class="panel_title">Панель инструментов</h3>
+                        <div class="tools_buttons">
+                            <button class="tool_button">Загрузка модели</button>
+                            <button class="tool_button">AI рекомендация</button>
+                            <button class="tool_button">История запросов</button>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="print_parameters">
+                        <h3 class="panel_title">Параметры печати</h3>
+                        <div class="parameter_controls">
+                            <select class="parameter_select">
+                                <option>Материал</option>
+                                <option>PLA</option>
+                                <option>ABS</option>
+                                <option>PETG</option>
+                            </select>
+                            <select class="parameter_select">
+                                <option>Слои</option>
+                                <option>0.1mm</option>
+                                <option>0.2mm</option>
+                                <option>0.3mm</option>
+                            </select>
+                            <select class="parameter_select">
+                                <option>Плотность</option>
+                                <option>20%</option>
+                                <option>50%</option>
+                                <option>100%</option>
+                            </select>
+                            <select class="parameter_select">
+                                <option>Скорость печати</option>
+                                <option>50mm/s</option>
+                                <option>100mm/s</option>
+                                <option>150mm/s</option>
+                            </select>
+                            <button class="apply_button">Применить</button>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                <div class="preview_area">
+                    <div class="preview_placeholder">
+                        <div class="preview_lines"></div>
+                        <p class="preview_text">Предварительный просмотр 3D модели</p>
+                    </div>
+                </div>
+            </div>
+            
+          
+            <div class="ai_chat_section">
+                <h3 class="chat_title">Как я могу вам помочь?</h3>
+                <div class="chat_input_container">
+                    <div class="chat_input_field">
+                        <span class="input_icon">⚙️</span>
+                        <span class="input_icon">📎</span>
+                        <input type="text" placeholder="Напишите запрос по требуемому дизайну" class="chat_input">
+                        <span class="send_icon">✈️</span>
+                    </div>
+                </div>
+                <button class="order_design_button">Заказать дизайн</button>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <div class="footer_container">
+            <div class="footer_main">
+                <div class="footer_logo_section">
+                    <div class="footer_logo">
+                        <div class="div_1"><p class="logo_footer">Art</p></div>
+                        <div class="div_2"><p class="logo_footer">Layer</p></div>
+                    </div>
+                    <div class="footer_hours">
+                        <p class="hours_text">ежедневно</p>
+                        <p class="hours_time">10:00-22:00</p>
+                    </div>
+                </div>
+                
+                <div class="footer_nav_section">
+                    <h3 class="footer_section_title">NAVIGATE</h3>
+                    <ul class="footer_nav_list">
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="shop.html">Shop</a></li>
+                        <li><a href="contacts.html">Contacts</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer_social_section">
+                    <h3 class="footer_section_title">SOCIAL</h3>
+                    <ul class="footer_social_list">
+                        <li><a href="#">TikTok</a></li>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Pinterest</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer_customer_section">
+                    <h3 class="footer_section_title">CUSTOMER SERVICE</h3>
+                    <ul class="footer_customer_list">
+                        <li><a href="#">Privacy policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Payments</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer_subscribe_section">
+                    <div class="footer_email_subscription">
+                        <input type="email" placeholder="Enter your email" class="footer_email_input">
+                        <button class="footer_subscribe_btn">Subscribe</button>
+                    </div>
+                    <div class="footer_social_icons">
+                        <a href="#"><img src="pics/Social Icons/Instagram.svg" alt="Instagram"></a>
+                        <a href="#"><img src="pics/Social Icons/Telegram.svg" alt="Telegram"></a>
+                        <a href="#"><img src="pics/Social Icons/TikTok.svg" alt="TikTok"></a>
+                        <a href="#"><img src="pics/Social Icons/Twitter.svg" alt="Twitter"></a>
+                        <a href="#"><img src="pics/Youtube.svg" alt="YouTube"></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer_bottom">
+                <p class="footer_copyright">Компания 3D-печати «ArtLayer»</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
